@@ -15,6 +15,7 @@ What you'll find here:
 - **Sales and marketing.** What worked, what didn't, and why I think so.
 - **Building products.** Notes from shipping things.
 - **Customer behaviour.** Patterns I notice in how people actually decide and buy.
+- **Technology & Domain Knowledge.** Things i learn on the job and want to explain to myself in simple terms
 
 Nothing here is polished advice. It's a record of tests and observations.
 
