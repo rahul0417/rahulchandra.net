@@ -1,0 +1,14 @@
+title: Rahul Chandra
+tagline: Notes from my experiments with AI, sales, marketing, building products and how customers really behave.
+description: Rahul Chandra's notebook on AI experiments, sales, marketing, product building and customer behaviour.
+url: https://rahulchandra.net
+author: Rahul Chandra
+lang: en
+permalink: /:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - HOW-TO-POST.md

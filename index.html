@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="intro">
+  <h1>Hi, I'm Rahul.</h1>
+  <p>{{ site.tagline }} I write things down as I test them, so the results are here for anyone who finds them useful.</p>
+</section>
+
+<section class="notes">
+  <h2>Notes</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="post-title">{{ post.title }}</span>
+        {% if post.summary %}<span class="post-summary">{{ post.summary }}</span>{% endif %}
+        <span class="meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%-d %b %Y' }}</time>
+          {% if post.topic %}<span class="topic">{{ post.topic }}</span>{% endif %}
+        </span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
